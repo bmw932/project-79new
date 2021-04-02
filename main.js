@@ -16,7 +16,7 @@ function add_item(){
     var sections;
     sections="<section class='cards'>";
     for(i=0;i<array_of_pizzas.length;i++){
-        sections=sections+'<div id="cards">'+'<img src="images/pizzaimg.png"/>'+'</div>';
+        sections=sections+'<div id="cards">'+'<img src="pizzaimg.png"/>'+'</div>';
     }
  sections=sections+'</section>';
  document.getElementById("display_addedmenu").innerHTML=sections;   
